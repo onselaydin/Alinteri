@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NetSales.Entitys.Context;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,12 @@ namespace NetSales.BackOffice
         public Form1()
         {
             InitializeComponent();
+           
+            using(var context=new NetSalesContext())
+            {
+                context.Database.CreateIfNotExists(); //veritabanı yoksa oluşturacak. Varsa pas geçecek.
+            }
+
         }
     }
 }
