@@ -37,7 +37,6 @@ C:\Alinteri\NetSales.FrontOffice\bin\Debug\de\DevExpress.Pdf.v18.2.Core.resource
 C:\Alinteri\NetSales.FrontOffice\bin\Debug\es\DevExpress.Pdf.v18.2.Core.resources.dll
 C:\Alinteri\NetSales.FrontOffice\bin\Debug\ja\DevExpress.Pdf.v18.2.Core.resources.dll
 C:\Alinteri\NetSales.FrontOffice\bin\Debug\ru\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.csprojAssemblyReference.cache
 C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.Form1.resources
 C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.Properties.Resources.resources
 C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.csproj.GenerateResource.cache
@@ -45,3 +44,4 @@ C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.csproj.CoreCompi
 C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.csproj.CopyComplete
 C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.exe
 C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.pdb
+C:\Alinteri\NetSales.FrontOffice\obj\Debug\NetSales.FrontOffice.csprojAssemblyReference.cache

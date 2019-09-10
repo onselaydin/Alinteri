@@ -49,15 +49,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\NetSalesContext.cs" />
-    <Compile Include="Mapping\CaseLineMap.cs" />
-    <Compile Include="Mapping\CaseMap.cs" />
-    <Compile Include="Mapping\CurrentMap.cs" />
-    <Compile Include="Mapping\DefinationMap.cs" />
+    <Compile Include="Mapping\CaseLinesMap.cs" />
+    <Compile Include="Mapping\CasesMap.cs" />
+    <Compile Include="Mapping\CurrentsMap.cs" />
+    <Compile Include="Mapping\DefinationsMap.cs" />
     <Compile Include="Mapping\PaymentTypeMap.cs" />
-    <Compile Include="Mapping\SlipMap.cs" />
-    <Compile Include="Mapping\StockLineMap.cs" />
-    <Compile Include="Mapping\StockMap.cs" />
-    <Compile Include="Mapping\WarehouseMap.cs" />
+    <Compile Include="Mapping\SlipsMap.cs" />
+    <Compile Include="Mapping\StockLinesMap.cs" />
+    <Compile Include="Mapping\StocksMap.cs" />
+    <Compile Include="Mapping\WarehousesMap.cs" />
+    <Compile Include="Migrations\201909101911569_initial.cs" />
+    <Compile Include="Migrations\201909101911569_initial.Designer.cs">
+      <DependentUpon>201909101911569_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909101951549_initial1.cs" />
+    <Compile Include="Migrations\201909101951549_initial1.Designer.cs">
+      <DependentUpon>201909101951549_initial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909101954377_initial2.cs" />
+    <Compile Include="Migrations\201909101954377_initial2.Designer.cs">
+      <DependentUpon>201909101954377_initial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Tables\Case.cs" />
     <Compile Include="Tables\CaseLine.cs" />
     <Compile Include="Tables\Current.cs" />
@@ -76,6 +89,16 @@
   <ItemGroup>
     <Content Include="TextFile1.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201909101911569_initial.resx">
+      <DependentUpon>201909101911569_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909101951549_initial1.resx">
+      <DependentUpon>201909101951549_initial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909101954377_initial2.resx">
+      <DependentUpon>201909101954377_initial2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

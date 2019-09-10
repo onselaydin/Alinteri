@@ -23,15 +23,15 @@ namespace NetSales.Entitys.Context
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new StockMap());
-            modelBuilder.Configurations.Add(new CurrentMap());
-            modelBuilder.Configurations.Add(new SlipMap());
-            modelBuilder.Configurations.Add(new StockLineMap());
-            modelBuilder.Configurations.Add(new CaseLineMap());
-            modelBuilder.Configurations.Add(new WarehouseMap());
-            modelBuilder.Configurations.Add(new CaseMap());
+            modelBuilder.Configurations.Add(new StocksMap());
+            modelBuilder.Configurations.Add(new CurrentsMap());
+            modelBuilder.Configurations.Add(new SlipsMap());
+            modelBuilder.Configurations.Add(new StockLinesMap());
+            modelBuilder.Configurations.Add(new CaseLinesMap());
+            modelBuilder.Configurations.Add(new WarehousesMap());
+            modelBuilder.Configurations.Add(new CasesMap());
             modelBuilder.Configurations.Add(new PaymentTypeMap());
-            modelBuilder.Configurations.Add(new DefinationMap());
+            modelBuilder.Configurations.Add(new DefinationsMap());
 
         }
 

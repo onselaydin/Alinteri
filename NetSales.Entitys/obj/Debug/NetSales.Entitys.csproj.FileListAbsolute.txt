@@ -10,3 +10,7 @@ C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.csproj.CopyComplete
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.dll
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.pdb
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.csprojAssemblyReference.cache
+C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.Migrations.initial.resources
+C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.csproj.GenerateResource.cache
+C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.Migrations.initial1.resources
+C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.Migrations.initial2.resources

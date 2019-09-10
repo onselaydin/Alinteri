@@ -5,3 +5,9 @@ dbname : AlinteriDb
 user : alinteri
 pass : r*6M25wa
 
+Enable-migrations
+Add-migration initial
+update-database
+
+EntityFramework PowerTools--sql deki tabloların entity, mapingi contextini oluşturur.
+https://marketplace.visualstudio.com/items?itemName=ErikEJ.EntityFramework6PowerToolsCommunityEdition
