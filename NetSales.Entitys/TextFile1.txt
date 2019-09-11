@@ -11,3 +11,5 @@ update-database
 
 EntityFramework PowerTools--sql deki tabloların entity, mapingi contextini oluşturur.
 https://marketplace.visualstudio.com/items?itemName=ErikEJ.EntityFramework6PowerToolsCommunityEdition
+
+--Validation için Fluent Validation aracını kullan--
