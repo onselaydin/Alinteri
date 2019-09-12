@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\NetSalesContext.cs" />
+    <Compile Include="DataAccess\StockDAL.cs" />
     <Compile Include="Mapping\CaseLinesMap.cs" />
     <Compile Include="Mapping\CasesMap.cs" />
     <Compile Include="Mapping\CurrentsMap.cs" />
@@ -87,7 +88,12 @@
     <Compile Include="Tables\Stock.cs" />
     <Compile Include="Tables\StockLine.cs" />
     <Compile Include="Tables\Warehouse.cs" />
+    <Compile Include="Validations\CaseValidator.cs" />
+    <Compile Include="Validations\CurrentValidator.cs" />
+    <Compile Include="Validations\DefinationValidator.cs" />
+    <Compile Include="Validations\PaymentTypeValidator.cs" />
     <Compile Include="Validations\StockValidator.cs" />
+    <Compile Include="Validations\WarehouseValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
