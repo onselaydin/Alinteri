@@ -55,7 +55,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\NetSalesContext.cs" />
+    <Compile Include="DataAccess\CaseDAL.cs" />
+    <Compile Include="DataAccess\CaseLineDAL.cs" />
+    <Compile Include="DataAccess\CurrentDAL.cs" />
+    <Compile Include="DataAccess\DefinationDAL.cs" />
+    <Compile Include="DataAccess\PaymentTypeDAL.cs" />
+    <Compile Include="DataAccess\SlipDAL.cs" />
     <Compile Include="DataAccess\StockDAL.cs" />
+    <Compile Include="DataAccess\StockLineDAL.cs" />
+    <Compile Include="DataAccess\WarehouseDAL.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\IEntityRepository.cs" />
     <Compile Include="Mapping\CaseLinesMap.cs" />
     <Compile Include="Mapping\CasesMap.cs" />
     <Compile Include="Mapping\CurrentsMap.cs" />
@@ -78,6 +88,7 @@
       <DependentUpon>201909101954377_initial2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Repositories\EntityRepositoryBase.cs" />
     <Compile Include="Tables\Case.cs" />
     <Compile Include="Tables\CaseLine.cs" />
     <Compile Include="Tables\Current.cs" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NetSales.Entitys.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 namespace NetSales.Entitys.Tables
 {
     // fiş tablosu
-    public class Slip
+    public class Slip:IEntity
     {
         public int Id { get; set; }
         public string SlipCode { get; set; }

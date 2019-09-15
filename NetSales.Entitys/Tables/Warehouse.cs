@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NetSales.Entitys.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NetSales.Entitys.Tables
 {
-    public class Warehouse
+    public class Warehouse:IEntity
     {
         public int Id { get; set; }
         public string WarehouseCode { get; set; }

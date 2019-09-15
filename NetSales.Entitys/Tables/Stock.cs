@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NetSales.Entitys.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 namespace NetSales.Entitys
 {
     //Stok tablosu
-    public class Stock
+    public class Stock:IEntity
     {
         public int Id { get; set; }
         public bool Status { get; set; }
