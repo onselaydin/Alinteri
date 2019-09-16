@@ -14,9 +14,21 @@ namespace NetSales.Entitys.Repositories
         where TContext : DbContext, new()
         where TEntity : class, IEntity, new()
     {
+
+        public List<TEntity> GetAll(TContext context, Expression<Func<TEntity,bool>> filter = null)
+        {
+            return filter == null ? context.Set<TEntity>().ToList() : context.Set<TEntity>().Where(filter).ToList();
+        }
+
         public void AddOrUpdate(TContext context, TEntity entity)
         {
             context.Set<TEntity>().AddOrUpdate(entity);
+        }
+
+        //Tek kayıt döndürmek için
+        public TEntity GetByFilter(TContext context, Expression<Func<TEntity, bool>> filter)
+        {
+            return context.Set<TEntity>().SingleOrDefault(filter);
         }
 
         public void Delete(TContext context, Expression<Func<TEntity, bool>> filter)
