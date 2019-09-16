@@ -60,3 +60,5 @@ C:\Alinteri\NetSales.BackOffice\bin\Debug\NetSales.Entitys.pdb
 C:\Alinteri\NetSales.BackOffice\bin\Debug\NetSales.Entitys.dll.config
 C:\Alinteri\NetSales.BackOffice\bin\Debug\EntityFramework.xml
 C:\Alinteri\NetSales.BackOffice\bin\Debug\EntityFramework.SqlServer.xml
+C:\Alinteri\NetSales.BackOffice\bin\Debug\FluentValidation.dll
+C:\Alinteri\NetSales.BackOffice\bin\Debug\FluentValidation.xml

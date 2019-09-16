@@ -9,10 +9,11 @@ using NetSales.Entitys.Context;
 using System.Linq.Expressions;
 using System.Data.Entity.Migrations;
 using NetSales.Entitys.Repositories;
+using NetSales.Entitys.Validations;
 
 namespace NetSales.Entitys.DataAccess
 {
-    public class CurrentDAL: EntityRepositoryBase<NetSalesContext, Current>
+    public class CurrentDAL: EntityRepositoryBase<NetSalesContext, Current,CurrentValidator>
     {
         
     }

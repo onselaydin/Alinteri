@@ -1,4 +1,6 @@
-﻿using NetSales.Entitys.Interfaces;
+﻿using FluentValidation;
+using NetSales.Entitys.Interfaces;
+using NetSales.Entitys.Tools;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -10,9 +12,10 @@ using System.Threading.Tasks;
 
 namespace NetSales.Entitys.Repositories
 {
-    public class EntityRepositoryBase<TContext, TEntity> : IEntityRepository<TContext, TEntity>
+    public class EntityRepositoryBase<TContext, TEntity,TValidator> : IEntityRepository<TContext, TEntity>
         where TContext : DbContext, new()
         where TEntity : class, IEntity, new()
+        where TValidator : IValidator,new()
     {
 
         public List<TEntity> GetAll(TContext context, Expression<Func<TEntity,bool>> filter = null)
@@ -22,7 +25,13 @@ namespace NetSales.Entitys.Repositories
 
         public void AddOrUpdate(TContext context, TEntity entity)
         {
-            context.Set<TEntity>().AddOrUpdate(entity);
+            TValidator validator = new TValidator();
+            var validationResult = ValidatorTool.Validate(validator, entity);
+            if (validationResult)
+            {
+                context.Set<TEntity>().AddOrUpdate(entity);
+            }
+            
         }
 
         //Tek kayıt döndürmek için

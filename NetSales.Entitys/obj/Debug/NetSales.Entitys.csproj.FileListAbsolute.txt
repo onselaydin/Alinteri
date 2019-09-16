@@ -14,3 +14,6 @@ C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.Migrations.initial.resou
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.csproj.GenerateResource.cache
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.Migrations.initial1.resources
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.Migrations.initial2.resources
+C:\Alinteri\NetSales.Entitys\bin\Debug\FluentValidation.dll
+C:\Alinteri\NetSales.Entitys\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Alinteri\NetSales.Entitys\bin\Debug\FluentValidation.xml
