@@ -34,7 +34,8 @@ namespace NetSales.Entitys.Mapping
             this.ToTable("StockLine");
             this.Property(p => p.Id).HasColumnName("Id");
             this.Property(p => p.SlipCode).HasColumnName("SlipCode");
-            this.Property(p => p.Line).HasColumnName("StockCode");
+            this.Property(p => p.Line).HasColumnName("Line");
+            this.Property(p => p.StockCode).HasColumnName("StockCode");
             this.Property(p => p.StockName).HasColumnName("StockName");
             this.Property(p => p.BarcodeType).HasColumnName("BarcodeType");
             this.Property(p => p.Barcode).HasColumnName("Barcode");

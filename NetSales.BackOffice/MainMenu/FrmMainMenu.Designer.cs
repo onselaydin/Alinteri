@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMainMenu));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
+            this.barbtnStok = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barbtnStok = new DevExpress.XtraBars.BarButtonItem();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
@@ -46,12 +46,20 @@
             this.ribbonControl1.ExpandCollapseItem,
             this.barbtnStok});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(4);
             this.ribbonControl1.MaxItemId = 3;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
-            this.ribbonControl1.Size = new System.Drawing.Size(1137, 206);
+            this.ribbonControl1.Size = new System.Drawing.Size(1186, 206);
+            // 
+            // barbtnStok
+            // 
+            this.barbtnStok.Caption = "Stok";
+            this.barbtnStok.Id = 2;
+            this.barbtnStok.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barbtnStok.ImageOptions.Image")));
+            this.barbtnStok.Name = "barbtnStok";
+            this.barbtnStok.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnStok_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -66,14 +74,6 @@
             this.ribbonPageGroup1.ItemLinks.Add(this.barbtnStok);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             // 
-            // barbtnStok
-            // 
-            this.barbtnStok.Caption = "Stok";
-            this.barbtnStok.Id = 2;
-            this.barbtnStok.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
-            this.barbtnStok.Name = "barbtnStok";
-            this.barbtnStok.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnStok_ItemClick);
-            // 
             // xtraTabbedMdiManager1
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
@@ -82,10 +82,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1137, 526);
+            this.ClientSize = new System.Drawing.Size(1186, 652);
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMainMenu";
             this.Ribbon = this.ribbonControl1;
             this.Text = "Form1";

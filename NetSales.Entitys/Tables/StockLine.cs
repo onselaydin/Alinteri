@@ -17,12 +17,12 @@ namespace NetSales.Entitys.Tables
         public string BarcodeType { get; set; }
         public string Barcode { get; set; }
         public string Unit { get; set; } // birim
-        public decimal Amount { get; set; } //miktar
+        public Nullable<decimal> Amount { get; set; } //miktar
         public int Kdv { get; set; }
-        public decimal UnitPrice { get; set; }
-        public decimal DiscountRate { get; set; } //indirim oranı
-        public decimal DiscountAmount { get; set; } //indirim Tutarı
-        public decimal TotalAmount { get; set; } //toplam tutar
+        public Nullable<decimal> UnitPrice { get; set; }
+        public Nullable<decimal> DiscountRate { get; set; } //indirim oranı
+        public Nullable<decimal> DiscountAmount { get; set; } //indirim Tutarı
+        public Nullable<decimal> TotalAmount { get; set; } //toplam tutar
         public string WarehouseCode { get; set; } //depo kodu
         public string WarehouseName { get; set; }
         public string SerialNo { get; set; } //seri numarası

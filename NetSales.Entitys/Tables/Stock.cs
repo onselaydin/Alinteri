@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetSales.Entitys
+namespace NetSales.Entitys.Tables
 {
     //Stok tablosu
     public class Stock:IEntity
@@ -29,14 +29,14 @@ namespace NetSales.Entitys
         public string ManufacturerCode { get; set; } // üretici kodu
         public int BuyingKdv { get; set; } //Alış kdv
         public int SalesKdv { get; set; } // satış kdv
-        public decimal BuyingPrice1 { get; set; } //Alış fiyatı
-        public decimal BuyingPrice2 { get; set; }
-        public decimal BuyingPrice3 { get; set; }
-        public decimal SalesPrice1 { get; set; } //satış fiyatı
-        public decimal SalesPrice2 { get; set; }
-        public decimal SalesPrice3 { get; set; }
-        public decimal MinStockQuantity { get; set; } //minimum stok  miktarı
-        public decimal MaxstockQuantity { get; set; } //max stok miktarı
+        public Nullable<decimal> BuyingPrice1 { get; set; } //Alış fiyatı
+        public Nullable<decimal> BuyingPrice2 { get; set; }
+        public Nullable<decimal> BuyingPrice3 { get; set; }
+        public Nullable<decimal> SalesPrice1 { get; set; } //satış fiyatı
+        public Nullable<decimal> SalesPrice2 { get; set; }
+        public Nullable<decimal> SalesPrice3 { get; set; }
+        public Nullable<decimal> MinStockQuantity { get; set; } //minimum stok  miktarı
+        public Nullable<decimal> MaxstockQuantity { get; set; } //max stok miktarı
         public string Comment { get; set; }
     }
 }

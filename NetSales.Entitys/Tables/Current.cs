@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetSales.Entitys
+namespace NetSales.Entitys.Tables
 {
     //cari tablosu
     public class Current:IEntity
