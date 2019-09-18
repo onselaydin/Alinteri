@@ -100,3 +100,4 @@ C:\Alinteri\NetSales.BackOffice\bin\Debug\ja\DevExpress.Office.v18.2.Core.resour
 C:\Alinteri\NetSales.BackOffice\bin\Debug\ru\DevExpress.Office.v18.2.Core.resources.dll
 C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.FrmMainMenu.resources
 C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.Stock.FrmStock.resources
+C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.Stock.frmStockOperation.resources

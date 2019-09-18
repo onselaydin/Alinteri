@@ -76,6 +76,12 @@
     <Compile Include="Stock\FrmStock.Designer.cs">
       <DependentUpon>FrmStock.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stock\frmStockOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock\frmStockOperation.Designer.cs">
+      <DependentUpon>frmStockOperation.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainMenu\FrmMainMenu.resx">
       <DependentUpon>FrmMainMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +97,9 @@
     </Compile>
     <EmbeddedResource Include="Stock\FrmStock.resx">
       <DependentUpon>FrmStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock\frmStockOperation.resx">
+      <DependentUpon>frmStockOperation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="packages.config" />

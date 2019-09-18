@@ -14,3 +14,7 @@ EntityFramework PowerTools--sql deki tabloların entity, mapingi contextini olu�
 https://marketplace.visualstudio.com/items?itemName=ErikEJ.EntityFramework6PowerToolsCommunityEdition
 
 --Validation için Fluent Validation aracını kullan--
+
+
+
+filterControl1 in proparties den sourceControl den gridControl seçilir.

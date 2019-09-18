@@ -14,3 +14,4 @@ C:\Alinteri\NetSales.Entitys\bin\Debug\System.ComponentModel.Annotations.dll
 C:\Alinteri\NetSales.Entitys\bin\Debug\FluentValidation.xml
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.Migrations.Initial.resources
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.csproj.GenerateResource.cache
+C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.csprojAssemblyReference.cache
