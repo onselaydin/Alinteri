@@ -5,7 +5,6 @@ C:\Alinteri\NetSales.Entitys\bin\Debug\EntityFramework.dll
 C:\Alinteri\NetSales.Entitys\bin\Debug\EntityFramework.SqlServer.dll
 C:\Alinteri\NetSales.Entitys\bin\Debug\EntityFramework.xml
 C:\Alinteri\NetSales.Entitys\bin\Debug\EntityFramework.SqlServer.xml
-C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.csproj.CoreCompileInputs.cache
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.csproj.CopyComplete
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.dll
 C:\Alinteri\NetSales.Entitys\obj\Debug\NetSales.Entitys.pdb

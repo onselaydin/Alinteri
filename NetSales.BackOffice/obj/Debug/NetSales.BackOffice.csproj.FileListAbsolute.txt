@@ -40,7 +40,6 @@ C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.csprojAssemblyRefe
 C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.Properties.Resources.resources
 C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.csproj.GenerateResource.cache
 C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.exe.licenses
-C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.csproj.CoreCompileInputs.cache
 C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.csproj.CopyComplete
 C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.exe
 C:\Alinteri\NetSales.BackOffice\obj\Debug\NetSales.BackOffice.pdb
