@@ -28,7 +28,98 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStockOperation));
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions17 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject65 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject66 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject67 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject68 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions18 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject69 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject70 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject71 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject72 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions15 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject57 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject58 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject59 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject60 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions16 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject61 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject62 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject63 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject64 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions9 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject33 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject34 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject35 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject36 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions10 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject37 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject38 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject39 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject40 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions5 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject17 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject18 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject19 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject20 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions6 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject21 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject22 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject23 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject24 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions13 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject49 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject50 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject51 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject52 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions14 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject53 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject54 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject55 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject56 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions11 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject41 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject42 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject43 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject44 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions12 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject45 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject46 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject47 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject48 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions7 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject25 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject26 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject27 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject28 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions8 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject29 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject30 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject31 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject32 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions4 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject13 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject14 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject15 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject16 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
             this.lblTitle = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.btnClose = new DevExpress.XtraEditors.SimpleButton();
@@ -41,7 +132,6 @@
             this.txtStockName = new DevExpress.XtraEditors.TextEdit();
             this.txtWarrantyTime = new DevExpress.XtraEditors.TextEdit();
             this.txtBrandCode = new DevExpress.XtraEditors.TextEdit();
-            this.txtUnit = new DevExpress.XtraEditors.TextEdit();
             this.txtBarcode = new DevExpress.XtraEditors.TextEdit();
             this.txtStockCode = new DevExpress.XtraEditors.TextEdit();
             this.toggleStatus = new DevExpress.XtraEditors.ToggleSwitch();
@@ -57,6 +147,7 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.groupGroup = new DevExpress.XtraEditors.GroupControl();
+            this.btnStockGroup = new DevExpress.XtraEditors.ButtonEdit();
             this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
@@ -65,7 +156,21 @@
             this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.btnStockGroup = new DevExpress.XtraEditors.ButtonEdit();
+            this.groupKdv = new DevExpress.XtraEditors.GroupControl();
+            this.calcSalesPrice3 = new DevExpress.XtraEditors.CalcEdit();
+            this.calcSalesPrice2 = new DevExpress.XtraEditors.CalcEdit();
+            this.calcSalesPrice1 = new DevExpress.XtraEditors.CalcEdit();
+            this.labelControl25 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl24 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
+            this.calcEdit6 = new DevExpress.XtraEditors.CalcEdit();
+            this.labelControl23 = new DevExpress.XtraEditors.LabelControl();
+            this.calcBuying2 = new DevExpress.XtraEditors.CalcEdit();
+            this.labelControl22 = new DevExpress.XtraEditors.LabelControl();
+            this.calcBuying1 = new DevExpress.XtraEditors.CalcEdit();
+            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
+            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.ımageList2 = new System.Windows.Forms.ImageList(this.components);
             this.btnBrand = new DevExpress.XtraEditors.ButtonEdit();
             this.btnCustomCode1 = new DevExpress.XtraEditors.ButtonEdit();
             this.btnCustomCode3 = new DevExpress.XtraEditors.ButtonEdit();
@@ -73,19 +178,7 @@
             this.btnModel = new DevExpress.XtraEditors.ButtonEdit();
             this.btnCustomCode2 = new DevExpress.XtraEditors.ButtonEdit();
             this.btnCustomCode4 = new DevExpress.XtraEditors.ButtonEdit();
-            this.groupKdv = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
-            this.calcBuying1 = new DevExpress.XtraEditors.CalcEdit();
-            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
-            this.calcSalesPrice1 = new DevExpress.XtraEditors.CalcEdit();
-            this.labelControl22 = new DevExpress.XtraEditors.LabelControl();
-            this.calcBuying2 = new DevExpress.XtraEditors.CalcEdit();
-            this.labelControl23 = new DevExpress.XtraEditors.LabelControl();
-            this.calcEdit6 = new DevExpress.XtraEditors.CalcEdit();
-            this.labelControl24 = new DevExpress.XtraEditors.LabelControl();
-            this.calcSalesPrice2 = new DevExpress.XtraEditors.CalcEdit();
-            this.labelControl25 = new DevExpress.XtraEditors.LabelControl();
-            this.calcSalesPrice3 = new DevExpress.XtraEditors.CalcEdit();
+            this.btnUnit = new DevExpress.XtraEditors.ButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupGeneral)).BeginInit();
@@ -97,13 +190,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtStockName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtWarrantyTime.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtBrandCode.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtUnit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtBarcode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtStockCode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toggleStatus.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupGroup)).BeginInit();
             this.groupGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnStockGroup.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupKdv)).BeginInit();
+            this.groupKdv.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcBuying2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcBuying1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBrand.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomCode1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomCode3.Properties)).BeginInit();
@@ -111,14 +211,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnModel.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomCode2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomCode4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupKdv)).BeginInit();
-            this.groupKdv.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.calcBuying1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcBuying2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnUnit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -143,17 +236,18 @@
             this.groupControl1.Controls.Add(this.btnClose);
             this.groupControl1.Controls.Add(this.btnSave);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupControl1.Location = new System.Drawing.Point(0, 750);
+            this.groupControl1.Location = new System.Drawing.Point(0, 745);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(715, 61);
+            this.groupControl1.Size = new System.Drawing.Size(715, 91);
             this.groupControl1.TabIndex = 2;
             this.groupControl1.Text = "Menü";
             // 
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.ImageOptions.ImageIndex = 6;
-            this.btnClose.Location = new System.Drawing.Point(598, 3);
+            this.btnClose.ImageOptions.ImageIndex = 0;
+            this.btnClose.ImageOptions.ImageList = this.ımageList1;
+            this.btnClose.Location = new System.Drawing.Point(598, 33);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(99, 46);
             this.btnClose.TabIndex = 1;
@@ -162,8 +256,9 @@
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.ImageOptions.ImageIndex = 5;
-            this.btnSave.Location = new System.Drawing.Point(493, 3);
+            this.btnSave.ImageOptions.ImageIndex = 1;
+            this.btnSave.ImageOptions.ImageList = this.ımageList1;
+            this.btnSave.Location = new System.Drawing.Point(493, 33);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(99, 46);
             this.btnSave.TabIndex = 1;
@@ -178,7 +273,7 @@
             this.groupGeneral.Controls.Add(this.txtStockName);
             this.groupGeneral.Controls.Add(this.txtWarrantyTime);
             this.groupGeneral.Controls.Add(this.txtBrandCode);
-            this.groupGeneral.Controls.Add(this.txtUnit);
+            this.groupGeneral.Controls.Add(this.btnUnit);
             this.groupGeneral.Controls.Add(this.txtBarcode);
             this.groupGeneral.Controls.Add(this.txtStockCode);
             this.groupGeneral.Controls.Add(this.toggleStatus);
@@ -255,13 +350,6 @@
             this.txtBrandCode.Name = "txtBrandCode";
             this.txtBrandCode.Size = new System.Drawing.Size(202, 28);
             this.txtBrandCode.TabIndex = 2;
-            // 
-            // txtUnit
-            // 
-            this.txtUnit.Location = new System.Drawing.Point(148, 178);
-            this.txtUnit.Name = "txtUnit";
-            this.txtUnit.Size = new System.Drawing.Size(202, 28);
-            this.txtUnit.TabIndex = 2;
             // 
             // txtBarcode
             // 
@@ -443,11 +531,11 @@
             // groupGroup
             // 
             this.groupGroup.Controls.Add(this.btnCustomCode4);
+            this.groupGroup.Controls.Add(this.btnCustomCode3);
             this.groupGroup.Controls.Add(this.btnCustomCode2);
+            this.groupGroup.Controls.Add(this.btnCustomCode1);
             this.groupGroup.Controls.Add(this.btnModel);
             this.groupGroup.Controls.Add(this.btnStockSubGroup);
-            this.groupGroup.Controls.Add(this.btnCustomCode3);
-            this.groupGroup.Controls.Add(this.btnCustomCode1);
             this.groupGroup.Controls.Add(this.btnBrand);
             this.groupGroup.Controls.Add(this.btnStockGroup);
             this.groupGroup.Controls.Add(this.labelControl17);
@@ -464,6 +552,21 @@
             this.groupGroup.Size = new System.Drawing.Size(715, 181);
             this.groupGroup.TabIndex = 4;
             this.groupGroup.Text = "Gruplar";
+            // 
+            // btnStockGroup
+            // 
+            this.btnStockGroup.Location = new System.Drawing.Point(148, 32);
+            this.btnStockGroup.Name = "btnStockGroup";
+            editorButtonImageOptions17.ImageIndex = 1;
+            editorButtonImageOptions17.ImageList = this.ımageList2;
+            editorButtonImageOptions18.ImageIndex = 0;
+            editorButtonImageOptions18.ImageList = this.ımageList2;
+            this.btnStockGroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions17, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject65, serializableAppearanceObject66, serializableAppearanceObject67, serializableAppearanceObject68, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions18, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject69, serializableAppearanceObject70, serializableAppearanceObject71, serializableAppearanceObject72, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnStockGroup.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnStockGroup.Size = new System.Drawing.Size(202, 28);
+            this.btnStockGroup.TabIndex = 1;
             // 
             // labelControl17
             // 
@@ -577,86 +680,6 @@
             this.labelControl12.TabIndex = 0;
             this.labelControl12.Text = "Stok Grubu:";
             // 
-            // btnStockGroup
-            // 
-            this.btnStockGroup.Location = new System.Drawing.Point(148, 32);
-            this.btnStockGroup.Name = "btnStockGroup";
-            this.btnStockGroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.btnStockGroup.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.btnStockGroup.Size = new System.Drawing.Size(202, 28);
-            this.btnStockGroup.TabIndex = 1;
-            // 
-            // btnBrand
-            // 
-            this.btnBrand.Location = new System.Drawing.Point(148, 70);
-            this.btnBrand.Name = "btnBrand";
-            this.btnBrand.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.btnBrand.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.btnBrand.Size = new System.Drawing.Size(202, 28);
-            this.btnBrand.TabIndex = 1;
-            // 
-            // btnCustomCode1
-            // 
-            this.btnCustomCode1.Location = new System.Drawing.Point(148, 106);
-            this.btnCustomCode1.Name = "btnCustomCode1";
-            this.btnCustomCode1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.btnCustomCode1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.btnCustomCode1.Size = new System.Drawing.Size(202, 28);
-            this.btnCustomCode1.TabIndex = 1;
-            // 
-            // btnCustomCode3
-            // 
-            this.btnCustomCode3.Location = new System.Drawing.Point(148, 142);
-            this.btnCustomCode3.Name = "btnCustomCode3";
-            this.btnCustomCode3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.btnCustomCode3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.btnCustomCode3.Size = new System.Drawing.Size(202, 28);
-            this.btnCustomCode3.TabIndex = 1;
-            // 
-            // btnStockSubGroup
-            // 
-            this.btnStockSubGroup.Location = new System.Drawing.Point(495, 34);
-            this.btnStockSubGroup.Name = "btnStockSubGroup";
-            this.btnStockSubGroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.btnStockSubGroup.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.btnStockSubGroup.Size = new System.Drawing.Size(202, 28);
-            this.btnStockSubGroup.TabIndex = 1;
-            // 
-            // btnModel
-            // 
-            this.btnModel.Location = new System.Drawing.Point(495, 70);
-            this.btnModel.Name = "btnModel";
-            this.btnModel.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.btnModel.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.btnModel.Size = new System.Drawing.Size(202, 28);
-            this.btnModel.TabIndex = 1;
-            // 
-            // btnCustomCode2
-            // 
-            this.btnCustomCode2.Location = new System.Drawing.Point(495, 106);
-            this.btnCustomCode2.Name = "btnCustomCode2";
-            this.btnCustomCode2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.btnCustomCode2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.btnCustomCode2.Size = new System.Drawing.Size(202, 28);
-            this.btnCustomCode2.TabIndex = 1;
-            // 
-            // btnCustomCode4
-            // 
-            this.btnCustomCode4.Location = new System.Drawing.Point(495, 142);
-            this.btnCustomCode4.Name = "btnCustomCode4";
-            this.btnCustomCode4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.btnCustomCode4.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.btnCustomCode4.Size = new System.Drawing.Size(202, 28);
-            this.btnCustomCode4.TabIndex = 1;
-            // 
             // groupKdv
             // 
             this.groupKdv.Controls.Add(this.calcSalesPrice3);
@@ -678,111 +701,14 @@
             this.groupKdv.TabIndex = 5;
             this.groupKdv.Text = "Kdv Oranları";
             // 
-            // labelControl20
+            // calcSalesPrice3
             // 
-            this.labelControl20.Appearance.BorderColor = System.Drawing.Color.Silver;
-            this.labelControl20.Appearance.Options.UseBorderColor = true;
-            this.labelControl20.Appearance.Options.UseTextOptions = true;
-            this.labelControl20.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.labelControl20.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl20.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl20.Location = new System.Drawing.Point(12, 40);
-            this.labelControl20.Name = "labelControl20";
-            this.labelControl20.Size = new System.Drawing.Size(130, 30);
-            this.labelControl20.TabIndex = 0;
-            this.labelControl20.Text = "Alış Fiyat - 1";
-            // 
-            // calcBuying1
-            // 
-            this.calcBuying1.Location = new System.Drawing.Point(148, 42);
-            this.calcBuying1.Name = "calcBuying1";
-            this.calcBuying1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.calcSalesPrice3.Location = new System.Drawing.Point(495, 110);
+            this.calcSalesPrice3.Name = "calcSalesPrice3";
+            this.calcSalesPrice3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.calcBuying1.Size = new System.Drawing.Size(202, 28);
-            this.calcBuying1.TabIndex = 3;
-            // 
-            // labelControl21
-            // 
-            this.labelControl21.Appearance.BorderColor = System.Drawing.Color.Silver;
-            this.labelControl21.Appearance.Options.UseBorderColor = true;
-            this.labelControl21.Appearance.Options.UseTextOptions = true;
-            this.labelControl21.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.labelControl21.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl21.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl21.Location = new System.Drawing.Point(359, 40);
-            this.labelControl21.Name = "labelControl21";
-            this.labelControl21.Size = new System.Drawing.Size(130, 30);
-            this.labelControl21.TabIndex = 0;
-            this.labelControl21.Text = "Satış Fiyatı - 1";
-            // 
-            // calcSalesPrice1
-            // 
-            this.calcSalesPrice1.Location = new System.Drawing.Point(495, 42);
-            this.calcSalesPrice1.Name = "calcSalesPrice1";
-            this.calcSalesPrice1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.calcSalesPrice1.Size = new System.Drawing.Size(202, 28);
-            this.calcSalesPrice1.TabIndex = 3;
-            // 
-            // labelControl22
-            // 
-            this.labelControl22.Appearance.BorderColor = System.Drawing.Color.Silver;
-            this.labelControl22.Appearance.Options.UseBorderColor = true;
-            this.labelControl22.Appearance.Options.UseTextOptions = true;
-            this.labelControl22.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.labelControl22.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl22.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl22.Location = new System.Drawing.Point(12, 74);
-            this.labelControl22.Name = "labelControl22";
-            this.labelControl22.Size = new System.Drawing.Size(130, 30);
-            this.labelControl22.TabIndex = 0;
-            this.labelControl22.Text = "Alış Fiyat - 2";
-            // 
-            // calcBuying2
-            // 
-            this.calcBuying2.Location = new System.Drawing.Point(148, 76);
-            this.calcBuying2.Name = "calcBuying2";
-            this.calcBuying2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.calcBuying2.Size = new System.Drawing.Size(202, 28);
-            this.calcBuying2.TabIndex = 3;
-            // 
-            // labelControl23
-            // 
-            this.labelControl23.Appearance.BorderColor = System.Drawing.Color.Silver;
-            this.labelControl23.Appearance.Options.UseBorderColor = true;
-            this.labelControl23.Appearance.Options.UseTextOptions = true;
-            this.labelControl23.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.labelControl23.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl23.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl23.Location = new System.Drawing.Point(12, 108);
-            this.labelControl23.Name = "labelControl23";
-            this.labelControl23.Size = new System.Drawing.Size(130, 30);
-            this.labelControl23.TabIndex = 0;
-            this.labelControl23.Text = "Alış Fiyat - 3";
-            // 
-            // calcEdit6
-            // 
-            this.calcEdit6.Location = new System.Drawing.Point(148, 110);
-            this.calcEdit6.Name = "calcEdit6";
-            this.calcEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.calcEdit6.Size = new System.Drawing.Size(202, 28);
-            this.calcEdit6.TabIndex = 3;
-            // 
-            // labelControl24
-            // 
-            this.labelControl24.Appearance.BorderColor = System.Drawing.Color.Silver;
-            this.labelControl24.Appearance.Options.UseBorderColor = true;
-            this.labelControl24.Appearance.Options.UseTextOptions = true;
-            this.labelControl24.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.labelControl24.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl24.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl24.Location = new System.Drawing.Point(359, 74);
-            this.labelControl24.Name = "labelControl24";
-            this.labelControl24.Size = new System.Drawing.Size(130, 30);
-            this.labelControl24.TabIndex = 0;
-            this.labelControl24.Text = "Satış Fiyatı - 2";
+            this.calcSalesPrice3.Size = new System.Drawing.Size(202, 28);
+            this.calcSalesPrice3.TabIndex = 3;
             // 
             // calcSalesPrice2
             // 
@@ -792,6 +718,15 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.calcSalesPrice2.Size = new System.Drawing.Size(202, 28);
             this.calcSalesPrice2.TabIndex = 3;
+            // 
+            // calcSalesPrice1
+            // 
+            this.calcSalesPrice1.Location = new System.Drawing.Point(495, 42);
+            this.calcSalesPrice1.Name = "calcSalesPrice1";
+            this.calcSalesPrice1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.calcSalesPrice1.Size = new System.Drawing.Size(202, 28);
+            this.calcSalesPrice1.TabIndex = 3;
             // 
             // labelControl25
             // 
@@ -807,20 +742,242 @@
             this.labelControl25.TabIndex = 0;
             this.labelControl25.Text = "Satış Fiyatı - 3";
             // 
-            // calcSalesPrice3
+            // labelControl24
             // 
-            this.calcSalesPrice3.Location = new System.Drawing.Point(495, 110);
-            this.calcSalesPrice3.Name = "calcSalesPrice3";
-            this.calcSalesPrice3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.labelControl24.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.labelControl24.Appearance.Options.UseBorderColor = true;
+            this.labelControl24.Appearance.Options.UseTextOptions = true;
+            this.labelControl24.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.labelControl24.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl24.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.labelControl24.Location = new System.Drawing.Point(359, 74);
+            this.labelControl24.Name = "labelControl24";
+            this.labelControl24.Size = new System.Drawing.Size(130, 30);
+            this.labelControl24.TabIndex = 0;
+            this.labelControl24.Text = "Satış Fiyatı - 2";
+            // 
+            // labelControl21
+            // 
+            this.labelControl21.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.labelControl21.Appearance.Options.UseBorderColor = true;
+            this.labelControl21.Appearance.Options.UseTextOptions = true;
+            this.labelControl21.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.labelControl21.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl21.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.labelControl21.Location = new System.Drawing.Point(359, 40);
+            this.labelControl21.Name = "labelControl21";
+            this.labelControl21.Size = new System.Drawing.Size(130, 30);
+            this.labelControl21.TabIndex = 0;
+            this.labelControl21.Text = "Satış Fiyatı - 1";
+            // 
+            // calcEdit6
+            // 
+            this.calcEdit6.Location = new System.Drawing.Point(148, 110);
+            this.calcEdit6.Name = "calcEdit6";
+            this.calcEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.calcSalesPrice3.Size = new System.Drawing.Size(202, 28);
-            this.calcSalesPrice3.TabIndex = 3;
+            this.calcEdit6.Size = new System.Drawing.Size(202, 28);
+            this.calcEdit6.TabIndex = 3;
+            // 
+            // labelControl23
+            // 
+            this.labelControl23.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.labelControl23.Appearance.Options.UseBorderColor = true;
+            this.labelControl23.Appearance.Options.UseTextOptions = true;
+            this.labelControl23.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.labelControl23.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl23.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.labelControl23.Location = new System.Drawing.Point(12, 108);
+            this.labelControl23.Name = "labelControl23";
+            this.labelControl23.Size = new System.Drawing.Size(130, 30);
+            this.labelControl23.TabIndex = 0;
+            this.labelControl23.Text = "Alış Fiyat - 3";
+            // 
+            // calcBuying2
+            // 
+            this.calcBuying2.Location = new System.Drawing.Point(148, 76);
+            this.calcBuying2.Name = "calcBuying2";
+            this.calcBuying2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.calcBuying2.Size = new System.Drawing.Size(202, 28);
+            this.calcBuying2.TabIndex = 3;
+            // 
+            // labelControl22
+            // 
+            this.labelControl22.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.labelControl22.Appearance.Options.UseBorderColor = true;
+            this.labelControl22.Appearance.Options.UseTextOptions = true;
+            this.labelControl22.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.labelControl22.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl22.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.labelControl22.Location = new System.Drawing.Point(12, 74);
+            this.labelControl22.Name = "labelControl22";
+            this.labelControl22.Size = new System.Drawing.Size(130, 30);
+            this.labelControl22.TabIndex = 0;
+            this.labelControl22.Text = "Alış Fiyat - 2";
+            // 
+            // calcBuying1
+            // 
+            this.calcBuying1.Location = new System.Drawing.Point(148, 42);
+            this.calcBuying1.Name = "calcBuying1";
+            this.calcBuying1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.calcBuying1.Size = new System.Drawing.Size(202, 28);
+            this.calcBuying1.TabIndex = 3;
+            // 
+            // labelControl20
+            // 
+            this.labelControl20.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.labelControl20.Appearance.Options.UseBorderColor = true;
+            this.labelControl20.Appearance.Options.UseTextOptions = true;
+            this.labelControl20.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.labelControl20.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl20.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.labelControl20.Location = new System.Drawing.Point(12, 40);
+            this.labelControl20.Name = "labelControl20";
+            this.labelControl20.Size = new System.Drawing.Size(130, 30);
+            this.labelControl20.TabIndex = 0;
+            this.labelControl20.Text = "Alış Fiyat - 1";
+            // 
+            // ımageList1
+            // 
+            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.ımageList1.Images.SetKeyName(0, "close.png");
+            this.ımageList1.Images.SetKeyName(1, "save.png");
+            // 
+            // ımageList2
+            // 
+            this.ımageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList2.ImageStream")));
+            this.ımageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.ımageList2.Images.SetKeyName(0, "multiply.png");
+            this.ımageList2.Images.SetKeyName(1, "plus.png");
+            // 
+            // btnBrand
+            // 
+            this.btnBrand.Location = new System.Drawing.Point(148, 70);
+            this.btnBrand.Name = "btnBrand";
+            editorButtonImageOptions15.ImageIndex = 1;
+            editorButtonImageOptions15.ImageList = this.ımageList2;
+            editorButtonImageOptions16.ImageIndex = 0;
+            editorButtonImageOptions16.ImageList = this.ımageList2;
+            this.btnBrand.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions15, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject57, serializableAppearanceObject58, serializableAppearanceObject59, serializableAppearanceObject60, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions16, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject61, serializableAppearanceObject62, serializableAppearanceObject63, serializableAppearanceObject64, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnBrand.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnBrand.Size = new System.Drawing.Size(202, 28);
+            this.btnBrand.TabIndex = 1;
+            // 
+            // btnCustomCode1
+            // 
+            this.btnCustomCode1.Location = new System.Drawing.Point(148, 106);
+            this.btnCustomCode1.Name = "btnCustomCode1";
+            editorButtonImageOptions9.ImageIndex = 1;
+            editorButtonImageOptions9.ImageList = this.ımageList2;
+            editorButtonImageOptions10.ImageIndex = 0;
+            editorButtonImageOptions10.ImageList = this.ımageList2;
+            this.btnCustomCode1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions9, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject33, serializableAppearanceObject34, serializableAppearanceObject35, serializableAppearanceObject36, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions10, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject37, serializableAppearanceObject38, serializableAppearanceObject39, serializableAppearanceObject40, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnCustomCode1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnCustomCode1.Size = new System.Drawing.Size(202, 28);
+            this.btnCustomCode1.TabIndex = 1;
+            // 
+            // btnCustomCode3
+            // 
+            this.btnCustomCode3.Location = new System.Drawing.Point(148, 142);
+            this.btnCustomCode3.Name = "btnCustomCode3";
+            editorButtonImageOptions5.ImageIndex = 1;
+            editorButtonImageOptions5.ImageList = this.ımageList2;
+            editorButtonImageOptions6.ImageIndex = 0;
+            editorButtonImageOptions6.ImageList = this.ımageList2;
+            this.btnCustomCode3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions5, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject17, serializableAppearanceObject18, serializableAppearanceObject19, serializableAppearanceObject20, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions6, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject21, serializableAppearanceObject22, serializableAppearanceObject23, serializableAppearanceObject24, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnCustomCode3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnCustomCode3.Size = new System.Drawing.Size(202, 28);
+            this.btnCustomCode3.TabIndex = 1;
+            // 
+            // btnStockSubGroup
+            // 
+            this.btnStockSubGroup.Location = new System.Drawing.Point(493, 32);
+            this.btnStockSubGroup.Name = "btnStockSubGroup";
+            editorButtonImageOptions13.ImageIndex = 1;
+            editorButtonImageOptions13.ImageList = this.ımageList2;
+            editorButtonImageOptions14.ImageIndex = 0;
+            editorButtonImageOptions14.ImageList = this.ımageList2;
+            this.btnStockSubGroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions13, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject49, serializableAppearanceObject50, serializableAppearanceObject51, serializableAppearanceObject52, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions14, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject53, serializableAppearanceObject54, serializableAppearanceObject55, serializableAppearanceObject56, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnStockSubGroup.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnStockSubGroup.Size = new System.Drawing.Size(202, 28);
+            this.btnStockSubGroup.TabIndex = 1;
+            // 
+            // btnModel
+            // 
+            this.btnModel.Location = new System.Drawing.Point(493, 70);
+            this.btnModel.Name = "btnModel";
+            editorButtonImageOptions11.ImageIndex = 1;
+            editorButtonImageOptions11.ImageList = this.ımageList2;
+            editorButtonImageOptions12.ImageIndex = 0;
+            editorButtonImageOptions12.ImageList = this.ımageList2;
+            this.btnModel.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions11, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject41, serializableAppearanceObject42, serializableAppearanceObject43, serializableAppearanceObject44, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions12, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject45, serializableAppearanceObject46, serializableAppearanceObject47, serializableAppearanceObject48, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnModel.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnModel.Size = new System.Drawing.Size(202, 28);
+            this.btnModel.TabIndex = 1;
+            // 
+            // btnCustomCode2
+            // 
+            this.btnCustomCode2.Location = new System.Drawing.Point(493, 106);
+            this.btnCustomCode2.Name = "btnCustomCode2";
+            editorButtonImageOptions7.ImageIndex = 1;
+            editorButtonImageOptions7.ImageList = this.ımageList2;
+            editorButtonImageOptions8.ImageIndex = 0;
+            editorButtonImageOptions8.ImageList = this.ımageList2;
+            this.btnCustomCode2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions7, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject25, serializableAppearanceObject26, serializableAppearanceObject27, serializableAppearanceObject28, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions8, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject29, serializableAppearanceObject30, serializableAppearanceObject31, serializableAppearanceObject32, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnCustomCode2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnCustomCode2.Size = new System.Drawing.Size(202, 28);
+            this.btnCustomCode2.TabIndex = 1;
+            // 
+            // btnCustomCode4
+            // 
+            this.btnCustomCode4.Location = new System.Drawing.Point(493, 142);
+            this.btnCustomCode4.Name = "btnCustomCode4";
+            editorButtonImageOptions3.ImageIndex = 1;
+            editorButtonImageOptions3.ImageList = this.ımageList2;
+            editorButtonImageOptions4.ImageIndex = 0;
+            editorButtonImageOptions4.ImageList = this.ımageList2;
+            this.btnCustomCode4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions4, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject13, serializableAppearanceObject14, serializableAppearanceObject15, serializableAppearanceObject16, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnCustomCode4.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnCustomCode4.Size = new System.Drawing.Size(202, 28);
+            this.btnCustomCode4.TabIndex = 1;
+            // 
+            // btnUnit
+            // 
+            this.btnUnit.Location = new System.Drawing.Point(148, 178);
+            this.btnUnit.Name = "btnUnit";
+            editorButtonImageOptions1.ImageIndex = 1;
+            editorButtonImageOptions1.ImageList = this.ımageList2;
+            editorButtonImageOptions2.ImageIndex = 0;
+            editorButtonImageOptions2.ImageList = this.ımageList2;
+            this.btnUnit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnUnit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnUnit.Size = new System.Drawing.Size(202, 28);
+            this.btnUnit.TabIndex = 1;
             // 
             // frmStockOperation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(715, 811);
+            this.ClientSize = new System.Drawing.Size(715, 836);
             this.Controls.Add(this.groupKdv);
             this.Controls.Add(this.groupGroup);
             this.Controls.Add(this.groupGeneral);
@@ -842,13 +999,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtStockName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtWarrantyTime.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtBrandCode.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtUnit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtBarcode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtStockCode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toggleStatus.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupGroup)).EndInit();
             this.groupGroup.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnStockGroup.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupKdv)).EndInit();
+            this.groupKdv.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcBuying2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calcBuying1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBrand.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomCode1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomCode3.Properties)).EndInit();
@@ -856,14 +1020,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnModel.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomCode2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomCode4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupKdv)).EndInit();
-            this.groupKdv.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.calcBuying1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcBuying2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.calcSalesPrice3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnUnit.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -892,7 +1049,6 @@
         private DevExpress.XtraEditors.TextEdit txtBarcode;
         private DevExpress.XtraEditors.TextEdit txtWarrantyTime;
         private DevExpress.XtraEditors.TextEdit txtBrandCode;
-        private DevExpress.XtraEditors.TextEdit txtUnit;
         private DevExpress.XtraEditors.CalcEdit calcMinStockQuantity;
         private DevExpress.XtraEditors.CalcEdit calcMaxStockQuantity;
         private DevExpress.XtraEditors.ComboBoxEdit cmbBarcode;
@@ -907,13 +1063,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl18;
         private DevExpress.XtraEditors.LabelControl labelControl12;
         private DevExpress.XtraEditors.ButtonEdit btnStockGroup;
-        private DevExpress.XtraEditors.ButtonEdit btnBrand;
-        private DevExpress.XtraEditors.ButtonEdit btnCustomCode3;
-        private DevExpress.XtraEditors.ButtonEdit btnCustomCode1;
-        private DevExpress.XtraEditors.ButtonEdit btnCustomCode4;
-        private DevExpress.XtraEditors.ButtonEdit btnCustomCode2;
-        private DevExpress.XtraEditors.ButtonEdit btnModel;
-        private DevExpress.XtraEditors.ButtonEdit btnStockSubGroup;
         private DevExpress.XtraEditors.GroupControl groupKdv;
         private DevExpress.XtraEditors.CalcEdit calcSalesPrice1;
         private DevExpress.XtraEditors.LabelControl labelControl21;
@@ -927,5 +1076,15 @@
         private DevExpress.XtraEditors.CalcEdit calcSalesPrice2;
         private DevExpress.XtraEditors.LabelControl labelControl25;
         private DevExpress.XtraEditors.LabelControl labelControl24;
+        private System.Windows.Forms.ImageList ımageList1;
+        private System.Windows.Forms.ImageList ımageList2;
+        private DevExpress.XtraEditors.ButtonEdit btnCustomCode4;
+        private DevExpress.XtraEditors.ButtonEdit btnCustomCode3;
+        private DevExpress.XtraEditors.ButtonEdit btnCustomCode2;
+        private DevExpress.XtraEditors.ButtonEdit btnCustomCode1;
+        private DevExpress.XtraEditors.ButtonEdit btnModel;
+        private DevExpress.XtraEditors.ButtonEdit btnStockSubGroup;
+        private DevExpress.XtraEditors.ButtonEdit btnBrand;
+        private DevExpress.XtraEditors.ButtonEdit btnUnit;
     }
 }
