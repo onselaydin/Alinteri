@@ -81,7 +81,25 @@ namespace NetSales.BackOffice.Stock
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            frmStockOperation so = new frmStockOperation();
+            frmStockOperation so = new frmStockOperation(new Entitys.Tables.Stock());
+            so.Show();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            string selected = gridView1.GetFocusedRowCellValue(colStockCode).ToString();
+            frmStockOperation so = new frmStockOperation(stock.GetByFilter(context,s=>s.StockCode==selected));
+            so.Show();
+        }
+
+        private void btnCopy_Click(object sender, EventArgs e)
+        {
+            string selected = gridView1.GetFocusedRowCellValue(colStockCode).ToString();
+            Entitys.Tables.Stock stockEntity = new Entitys.Tables.Stock();
+            stockEntity = stock.GetByFilter(context, s => s.StockCode == selected);
+            stockEntity.Id = -1;
+            stockEntity.StockCode = null;
+            frmStockOperation so = new frmStockOperation(stockEntity);
             so.Show();
         }
     }

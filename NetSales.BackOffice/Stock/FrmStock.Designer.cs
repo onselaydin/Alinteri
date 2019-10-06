@@ -176,6 +176,7 @@
             this.btnCopy.Size = new System.Drawing.Size(134, 46);
             this.btnCopy.TabIndex = 1;
             this.btnCopy.Text = "Kopyala";
+            this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
             // 
             // btnDelete
             // 
@@ -197,6 +198,7 @@
             this.btnEdit.Size = new System.Drawing.Size(134, 46);
             this.btnEdit.TabIndex = 1;
             this.btnEdit.Text = "Düzenle";
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnAdd
             // 
