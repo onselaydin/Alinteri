@@ -5,6 +5,15 @@ dbname : AlinteriDb
 user : alinteri
 pass : r*6M25wa
 
+PM>install-package entityFramework
+
+Context Oluşturduk...
+
+appconfige connection string oluşturduk
+maping işlemlerini yaptık.(her alanın özellikleri burada tanımlanıyor.)
+context tarafında bu mapingleri override yaptık.
+
+
 Enable-migrations
 Add-migration initial
 Add-Migration Initial -IgnoreChanges
